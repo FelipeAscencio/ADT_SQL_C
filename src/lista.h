@@ -46,7 +46,6 @@ void *lista_quitar(lista_t *lista);
  * elemento.
  *
  * Devuelve el elemento removido de la lista o NULL en caso de error.
- *
  */
 void *lista_quitar_de_posicion(lista_t *lista, size_t posicion);
 
