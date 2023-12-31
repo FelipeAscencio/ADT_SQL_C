@@ -281,6 +281,7 @@ lista_t *insertar_medio(lista_t *lista)
 void ver_eliminacion(lista_t *lista)
 {
 	void *elemento = lista_quitar(lista);
+	size_t tamanio = 0;
 	if (elemento != NULL) {
 		size_t tamanio = lista_tamanio(lista);
 	}
@@ -292,6 +293,7 @@ void ver_eliminacion_posicion(lista_t *lista)
 {
 	size_t posicion = 0;
 	void *elemento = lista_quitar_de_posicion(lista, posicion);
+	size_t tamanio = 0;
 	if (elemento != NULL) {
 		size_t tamanio = lista_tamanio(lista);
 	}
