@@ -283,7 +283,7 @@ void ver_eliminacion(lista_t *lista)
 	void *elemento = lista_quitar(lista);
 	size_t tamanio = 0;
 	if (elemento != NULL) {
-		size_t tamanio = lista_tamanio(lista);
+		tamanio = lista_tamanio(lista);
 	}
 	pruebas_afirmar(tamanio == TAMANIO_ESPERADO,
 			"La eliminacion al final fue exitosa.");
@@ -295,7 +295,7 @@ void ver_eliminacion_posicion(lista_t *lista)
 	void *elemento = lista_quitar_de_posicion(lista, posicion);
 	size_t tamanio = 0;
 	if (elemento != NULL) {
-		size_t tamanio = lista_tamanio(lista);
+		tamanio = lista_tamanio(lista);
 	}
 	pruebas_afirmar(tamanio == TAMANIO_ESPERADO_3,
 			"La eliminacion en posicion fue exitosa.");
