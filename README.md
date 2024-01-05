@@ -1,6 +1,6 @@
 # ADT SQL
 
-- To compile and run the tests in your own console:
+- To compile and run the tests in your own console (being inside the general folder containing the files):
 
 ```bash
 bash .tests/test.sh
