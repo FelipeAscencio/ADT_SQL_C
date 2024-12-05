@@ -6,8 +6,6 @@
 bash .tests/test.sh
 ```
 
----
-
 ## Introduction
 
 The idea of ​​the project was to be able to provide the user with the implementation of a "stack, queue and list", with all its corresponding functions and in a 100% functional way.
@@ -42,7 +40,7 @@ Having the element be a "void*" allows the user to save whatever they want insid
 
 ---
 
-## Testing
+# Testing
 
 For test the code, i implemented my own tests.
 
@@ -52,7 +50,7 @@ Also add the analysis with valgrind to see if you have memory leaks, since the p
 
 ---
 
-## Functions
+# Functions
 
 First of all, it is important to clarify something, in order to reduce the amount of information in the explanations below, corresponding to each function, the best case of its execution is contemplated.
 
@@ -60,11 +58,11 @@ But, each function has all its respective validations to, in case of error, term
 
 The pre and post conditions of each function are specified in the corresponding ".h" file.
 
-### Computational complexity
+## Computational complexity
 
 I am going to make a list of the computational complexities in "BIG O" notation of each implemented function.
 
-### Stack
+## Stack
 
 - pila_crear = O(1).
 
@@ -80,7 +78,7 @@ I am going to make a list of the computational complexities in "BIG O" notation 
 
 - pila_destruir = O(n).
 
-### Queue
+## Queue
 
 - cola_crear = O(1).
 
@@ -96,7 +94,7 @@ I am going to make a list of the computational complexities in "BIG O" notation 
 
 - cola_destruir = O(n).
 
-### List
+## List
 
 - lista_crear = O(1).
 
